@@ -11,8 +11,11 @@
 
 </head>
 
-<body>
-
-
-<img class="resize" src="giphy.gif" >
-</body>
+<div class="flip"> 
+    <div class="front"> 
+        <img src="heart.gif" alt="" />
+    </div> 
+    <div class="back">
+        <h3>Some Text in the Back!</h3>
+    </div> 
+</div>

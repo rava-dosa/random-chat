@@ -4,15 +4,29 @@
 	<title>Random-chat Welcomes you</title>
 	<meta charset="utf-8" />
 	
-	<link rel="stylesheet" href="new 3.css" type="text/css" />
+	<link rel="stylesheet" href="style.css" type="text/css" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	
+	<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="jquery.flip.min.js"></script>
 
+    <script>
+$(function(){
+    $(".flip").flip({
+        trigger: 'click'
+    });
+});
+</script>
 
 </head>
 
-<body>
+<div class="flip"> 
+    <div class="front"> 
+        <img src="heart.gif" alt="" />
+    </div> 
+    <div class="back">
+        <h3>Finding your pulse</h3>
+    </div> 
+</div>
 
 
-<img class="resize" src="heart.gif" >
-</body>
+
